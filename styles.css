@@ -26,18 +26,26 @@ main{
     text-align: center;
 }
 
-input{
+.box{
     width: 100%;
     padding: 1em;
     border-radius: 30px;
     border:1px solid grey;
+    display: flex;
+}
+
+.box input{
+    height: 20px;
+    border: none;
+    outline: none;
 }
 .btn_container{
-    margin-top: 1em;
+    margin-top: 2em;
 }
 .btn_container button{
     padding: 1em;
     border: none;
+    border-radius: 2em;
 }
 footer{
     background-color: rgb(240, 236,236);
